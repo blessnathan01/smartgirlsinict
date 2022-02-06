@@ -1,0 +1,141 @@
+/* Author: Blessing Rweikiza */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin: 0 0;
+}
+nav {
+    background-color: #fff;
+    padding: 1%;
+}
+
+.brand {
+    font-weight: bold;
+    margin-right: 8%;
+    /* text-transform: uppercase; */
+    font-size: larger;
+    color: #009CD6;
+}
+
+#active {
+    color: #009CD6;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.menu-item {
+    margin-right: 2.5%;
+    font-size: 17px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#link {
+    color: black;
+}
+
+#link, #active {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.dropbtn {
+    background-color: #fff;
+    color: black;
+    padding: 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(224, 255, 228);border-radius: 5px;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #fff;
+  }
+
+header {
+    background-color: #fff;
+    padding: 11.5%;
+    margin-top: 3%;
+    padding-left: 24%;
+    text-align: center;
+    color: #009CD6;
+    font-size: 32px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    background-image: url('../logo-plain.jpg');
+    background-repeat: no-repeat;
+}
+
+article {
+    background-color: fff;
+    padding: 5% 12.5%;
+    text-align: justify;
+}
+
+hr {
+    border-color: #009CD6;
+}
+
+.ads {
+    background-color: rgb(224, 255, 228);
+    padding: 6.5% 12.5%;
+    text-align: center;
+}
+
+footer {
+    /* background-color: lightgreen; */
+    padding: 1.5%;
+    text-align: center;
+    font-size: 15px;
+    color: #009CD6;
+}
+
+.toolkit {
+    background-color: #009cd6; 
+    display: flex; 
+    border-radius: 5px; 
+    /* border: 1px solid #009cd6;  */
+    margin-top: 5%;
+    box-shadow: 2px 2px 5px 2px rgb(184, 184, 184);
+}
+
+.caption {
+    padding: 16% 5%; 
+    font-size: larger; 
+    color: white;
+}
