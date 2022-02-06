@@ -97,7 +97,7 @@ header {
     font-size: 32px; 
     text-transform: uppercase;
     font-weight: bold;
-    background-image: url('../logo-plain.jpg');
+    background-image: url('logo-plain.jpg');
     background-repeat: no-repeat;
 }
 
